@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Metro 4 -->
+    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
+  </head>
+  <body>
+   <a class="button" id="context_toggle">Open context menu</a>
+<ul class="d-menu context" data-role="dropdown" data-toggle-element="#context_toggle">
+    <li><a href="index.html"><span class="mif-user icon"></span> Profile</a></li>
+    <li><a href="Scan.html">Scan Network</a></li>
+    <li><a href="#">Photo</a></li>
+    <li class="divider"></li>
+    <li><a href="#"><span class="mif-target icon"></span> Location</a></li>
+</ul>
+ <table  class="table w-25 cell-md-10 text-center">
+    <thead>
+    <tr>
+        <th >Name</th>
+        <th >Office</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Tiger Nixon</td>
+        <td>Edinburgh</td>
+    </tr>
+    ...
+    </tbody>
+</table>
+</form>
+    <!-- Metro 4 -->
+    <script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
+  </body>
+</html>
